@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "caseDetails": 3,
+  "moreItems": 8,
+  "localLinks": true,
+  "dialog": true,
+  "errors": [],
+  "limits": "Desktop Edge emulation; original apps not rerun; physical phones and external links not tested"
+}
