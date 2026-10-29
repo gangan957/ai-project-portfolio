@@ -7,3 +7,5 @@
 .header:before{content:"";position:absolute;inset:0 auto 0 50%;width:100vw;transform:translateX(-50%);background:var(--dark);z-index:-1}
 .art-stamp{background:#1c342d;border:1px solid #66835a;border-radius:10px;padding:10px 14px;left:1%;bottom:-6px;box-shadow:0 8px 20px #0003}.art-stamp>span{font-size:34px}.art-stamp>div{font-size:10px}
 @media(max-width:540px){.art-stamp{bottom:5px;left:2%;padding:7px 10px;gap:8px}.art-stamp>span{font-size:25px}.art-stamp>div{font-size:8px}}
+/* Full-bleed color without 100vw overflow on browsers with classic scrollbars. */
+.hero:before,.header:before{left:0;right:0;width:auto;transform:none;box-shadow:0 0 0 100vmax var(--dark);clip-path:inset(0 -100vmax)}
