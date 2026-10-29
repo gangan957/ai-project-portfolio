@@ -20,3 +20,7 @@
 
 /* V4 evidence additions; palette and interactions unchanged. */
 .evidence-source{font-size:13px!important;color:#52675b;border-left:2px solid #9aae75;padding-left:10px}.evidence-gallery{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:20px 0}.evidence-gallery figure{margin:0;min-width:0}.evidence-gallery figure img{height:230px!important;object-fit:contain!important;background:#f4f1e9}.evidence-gallery figcaption{font-size:13px;line-height:1.7}@media(max-width:430px){.evidence-gallery{grid-template-columns:1fr}.evidence-gallery figure img{height:270px!important}}
+
+/* V5 reading hierarchy, existing theme retained. */
+.role-direction{font-size:17px;line-height:1.8;color:#d7ef82;margin:20px 0}.hero-github{color:#d7ef82;display:inline-flex;align-items:center;min-height:44px}.technical-evidence{border-top:1px solid #c4d0c7;margin-top:20px}.contribution{border-left:3px solid #8aa667;padding-left:12px}.case-body li{line-height:1.9}.hero-description{max-width:560px}
+@media(max-width:700px){.hero{padding-top:26px}.hero-art{display:none}.hero-grid{display:block}.hero-copy h1{font-size:32px;line-height:1.3}.hero-description{line-height:1.8;font-size:15px}.hero-meta{margin-top:24px;padding:15px 0}.hero-copy>.quick-links{margin-top:14px}.role-direction{font-size:16px;margin:15px 0}.projects.section{padding-top:30px}.hero-actions{margin-top:18px}.v3-case .project-copy{padding:18px}.v3-case .contribution{font-size:15px}.technical-evidence summary{font-size:15px}}
